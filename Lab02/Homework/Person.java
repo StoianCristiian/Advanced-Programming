@@ -1,7 +1,7 @@
 public class Person
 {
-    private String name;
-    private String date_of_birth;
+    private final String name;
+    private final String date_of_birth;
 
     public Person(String name, String date_of_birth)
     {
