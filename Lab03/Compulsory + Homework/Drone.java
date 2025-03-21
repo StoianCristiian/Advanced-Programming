@@ -8,6 +8,8 @@ public class Drone extends Aircraft implements CargoCapable {
         this.batteryLife = batteryLife;
     }
 
+    public int getBatteryLife() { return this.batteryLife; }
+
     @Override
     public int getMaxPayload() {
         return maxPayload;

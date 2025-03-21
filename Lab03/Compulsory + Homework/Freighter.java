@@ -1,5 +1,5 @@
 public class Freighter extends Aircraft implements CargoCapable {
-    private int maxPayload;
+    private final int maxPayload;
 
     public Freighter(String name, String model, String tailNumber, int maxPayload) {
         super(name, model, tailNumber);
