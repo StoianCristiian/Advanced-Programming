@@ -1,3 +1,5 @@
+package com.example;
+
 class Location implements Comparable<Location>
 {
     private final String name;
